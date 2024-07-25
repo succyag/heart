@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
             //想说什么
-            S.UI.simulate("曹晶|我爱你|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("晶晶与阳阳|永远在一起|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
